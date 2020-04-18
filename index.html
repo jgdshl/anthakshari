@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthakshari</title>
+    <link rel="stylesheet" href="./anthakshari.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap" rel="stylesheet">
+    <script src="./anthakshari.js"></script>
+</head>
+
+<body>
+    <div id="leftPane">
+        <div id="pBanner" onclick="togglePlayerList();">Players</div>
+        <textarea id="plist" rows="10" onchange="updatePlayersList(); togglePlayerList();" style="display: none;">
+Player A
+Player B</textarea>
+
+    <div id="container">
+        <h1 class="eng">A n t h a k s h a r i</h1>
+        <div id="player"></div>
+        <div id="letter"></div>
+        <button onclick="nextGame()">Next</button>
+    </div>
+</body>
+</html>

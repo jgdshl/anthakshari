@@ -1,0 +1,88 @@
+body {
+    background-color: #739C96 ;
+    color: #001C18;
+    border-color: #001C18;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 36pt;
+
+    max-width: 300px;
+    margin: 0 auto;
+    transform: scale(1, 0.55);
+
+    color: #14423C;
+}
+
+#leftPane {
+    max-width: 300px;
+}
+
+
+#pBanner {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30pt;
+    position: relative;
+    margin: 5px auto auto 0;
+    border-left: 3px #001C18 solid;
+    transform: scale(1, 0.55);
+    padding-left: 10px;
+}
+
+#plist {
+    position: relative;
+    width: 300px;
+    display: none;
+    margin: 0;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-left: 3px solid #001C18;
+    padding: 3% 10px;
+    resize: none;
+    background-color: #D0DBDA;
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -50%;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 4px;
+    vertical-align: middle;
+    background-color: #D0DBDA;
+}
+
+#player {
+    font-family: 'Sacramento', cursive;
+    font-size: 26pt;
+    max-width: 300px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid #001C18;
+    border-bottom: 1px solid #001C18;
+}
+
+#letter {
+    font-family: 'Kavivanar', cursive;
+    text-align: center;
+    color: #001C18;
+    font-size: 72pt;
+    max-width: 300px;
+    margin: auto;
+    transform: scale(1.2, 0.9);
+}
+
+button {
+    margin: auto 5% 10% 40%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    background-color: #14423C;
+    color: #D0DBDA;
+    border: none;
+}
